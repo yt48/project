@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body class="container">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">My project</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link smooth" href="#best-photos">Best photos <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link smooth" href="#trips">Previous trips</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link smooth" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div id="best-photos">
+    <div class="row">
+      <article class="col-sm-6">
+        <img src="img/britain.jpg" alt="british man" class="img-fluid">
+        <div class="row justify-content-center">Kyiv shots behind beautiful scen.</div>
+      </article>
+      <article class="col-sm-6">
+        <img src="img/lil.jpg" alt="girl in train" class="img-fluid">
+        <div class="row justify-content-center">Play with shadow.</div>
+      </article>
+    </div>
+    <div class="row" id="photo-1">
+      <article class="col-sm-4">
+        <img src="img/shadow.jpg" alt="morning lights" class="img-fluid" style="max-height:260px">
+        <div class="row justify-content-center">The city awakes.</div>
+      </article>
+      <article class="col-sm-4">
+        <img src="img/lil1.jpg" alt="neon lights" class="img-fluid" style="max-height:260px">
+        <div class="row justify-content-center">Walk with neon fire.</div>
+      </article>
+      <article class="col-sm-4">
+        <img src="img/spain.jpg" alt="church" class="img-fluid" style="max-height:260px">
+        <div class="row justify-content-center">Church in the Spain</div>
+      </article>
+    </div>
+  </div>
+  <div class="row justify-content-center" id="trips">
+    <h1>Previous trips
+    </h1>
+  </div>
+  <div>
+    <div class="row">
+      <img class="col-md-6 img-flui" src="img/canarias.jpg" alt="canarias island">
+      <div class="col-md-6" id="information1"> The Canary Islands also known as The Canaries (Spanish: Las Canarias), are an archipelago and autonomous community of Spain located on the Atlantic Ocean, 100 kilometres (62 miles) west of Morocco. The Canaries are among the outermost regions (OMR)
+        of the European Union proper. It is also one of the eight regions with special consideration of historical nationality recognized as such by the Spanish Government. </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6" id="information2">Toledo (Spanish: [toˈleðo]) is a city and municipality located in central Spain; it is the capital of the province of Toledo and the autonomous community of Castile–La Mancha. Toledo was declared a World Heritage Site by UNESCO in 1986 for its extensive
+        monumental and cultural heritage.</div>
+      <img class="col-md-6 img-fluid" src="img/toledo.jpg" alt="old city">
+    </div>
+    <div class="row">
+      <img class="col-md-6" src="img/warsawa.jpg" alt="warsawa" style="max-height:540px">
+      <div class="col-md-6 " id="information3">Warsaw (Polish: Warszawa [varˈʂava] (About this sound listen); see also other names) is the capital and largest city of Poland. It stands on the Vistula River in east-central Poland, roughly 260 kilometres (160 mi) from the Baltic Sea and 300 kilometres
+        (190 mi) from the Carpathian Mountains. Its population is officially estimated at 1.750 million residents within a greater metropolitan area of 3.101 million residents,[3] which makes Warsaw the 9th most-populous capital city in the European Union.
+        The city limits cover 516.9 square kilometres (199.6 sq mi), while the metropolitan area covers 6,100.43 square kilometres (2,355.39 sq mi).</div>
+    </div>
+  </div>
+  <h1 class="row justify-content-center" id="contact">
+    Contact me
+  </h1>
+  <div class="row text-center justify-content-center col-12" id="contact-form">
+    <form method="POST" action="https://formspree.io/roger008889@gmail.com" id="form">
+      <input id="client-name " type="text " placeholder="Name" required><br>
+      <input id="client-email " type="email " placeholder="E-mail" required><br>
+      <textarea id="client-message " placeholder="Enter Your message" required></textarea><br>
+      <button type="send">Send</button>
+    </form>
+  </div>
+  <footer>
+    <div class="row justify-content-center">Yaroslav Tymoschuk.Lviv.2017</div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/smooth-scroll.js"></script>
+
+</body>
+
+</html>

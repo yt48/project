@@ -1,0 +1,19 @@
+#information1,#information2,#information3 {
+    padding-top: 75px;
+}
+#contact {
+    padding: 30px;
+}
+footer {
+    padding-top: 50px;
+}
+body {
+    margin-top: 55px;
+}
+#client-name,#clien-email,#client-message {
+    width: 500px;
+}
+#contact,#contact-form,footer{
+    background-color: grey;
+    margin:0px;
+}
